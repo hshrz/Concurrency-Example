@@ -2,6 +2,9 @@ package com.hs.util;
 
 public class Utils {
 
+    public static int generateRandomNumber(int i) {
+        return (int)(Math.random()*i);
+    }
     public static int[] generateRandomNumbers(int i) {
         int[] nums =  new int[i];
         for (int j=0;j<i;++j) {
